@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+p {
+    background-color: rgb(209, 144, 144);
+    font-family: Arial, 'Times New Roman';
+}
+
+div {
+    font-family: sans-serif, 'Times New Roman';
+}
+
+#paragraph-2 {
+    color: #1010f3;
+    font-size: 32px;
+}
+
+#paragraph-3 {
+    font-size: 26px;
+}
+
+#paragraph-4 {
+    font-size: 22px;
+    background-color: #a0ec89;
+    font-weight: 850;
+}
