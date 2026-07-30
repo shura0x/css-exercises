@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 35px;
+  margin: 13px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 35px;
 }
 
 .three {
@@ -23,6 +23,8 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 28px;
+  margin-left: 338px;
+  /* 600px (max-body-width) - 2x3px for border - 2x28px for left-right padding = 338px left for content-box 
+  It seems like that max-width is reserved for just content-box, then you have to calulate padding and border. */
 }
